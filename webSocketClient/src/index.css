@@ -1,0 +1,57 @@
+body {
+  background-color: #fff;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("wa.png");
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+  background-color: #105B55;
+  
+}
+
+.title .ant-typography-secondary{
+  color: #efefef !important;
+}
+.ant-btn-primary{
+  background-color: #105B55;
+}
+
+.ant-input-search-enter-button input:hover, .ant-input-search-enter-button input:focus {
+  border-color: #105B55;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  color: #fff;
+  background-color: #38807a;
+  border-color: #38807a;
+}
+.ant-btn-primary{
+  border-color: #105B55;
+}
+
+.ant-card-body{
+  padding:15px;
+}
+
+.ant-card-bordered{
+  margin: 15px 15px 0px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.bottom {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 0px;
+}
